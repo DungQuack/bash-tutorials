@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# declare STRING variable
+STRING="Hello World, this is DungQuach"
+# print variable on a screen
+echo $STRING
+echo -e"--------------------------------"
+echo -e "Hi, this is Dung ,who are you ?"
+read word1 word2
+echo "Oh hello $word1 nice to meet you too $word2 !"
+echo "How do you feel right now?"
+read
+echo "$REPLY, I glad to hear that !"
+echo "$word can i ask you a question"
+echo "Name 3 colors you like the most ?"
+read -a colours
+echo "Those colours are same as my favorite ${colours[0]} ${colours[0]"
