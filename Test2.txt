@@ -1,0 +1,1 @@
+Dung is redirect this STDOUT to STDERR
